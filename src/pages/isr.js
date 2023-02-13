@@ -20,7 +20,7 @@ export async function getStaticProps() {
             state, //will be passed to the page component as props
         },
       
-        revalidate,
+        revalidate : 10,
 
         
     };
