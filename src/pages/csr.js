@@ -1,4 +1,4 @@
-// client side rendered
+// client side rendering
 import { useEffect, useState } from "react";
 
 export default function ClientSideRendered() {

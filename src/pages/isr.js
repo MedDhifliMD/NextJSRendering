@@ -6,6 +6,7 @@ export default function ServerSideRenderd({ state }) {
         <>
             {state.map((e) => (
                 <h2 key={e.id}>{e.name}</h2>
+            
             ))}
         </>)
 }
@@ -19,6 +20,6 @@ export async function getStaticProps() {
             state, //will be passed to the page component as props
         },
 
-        revalidate: 20, // In seconds
+        
     };
 }

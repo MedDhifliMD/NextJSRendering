@@ -6,6 +6,7 @@ export default function ServerSideRenderd({ state }) {
         <>
             {state.map((e) => (
                 <h2 key={e.id}>{e.name}</h2>
+            
             ))}
         </>)
 }
