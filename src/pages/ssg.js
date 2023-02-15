@@ -5,7 +5,7 @@ export default function ServerSideRenderd({ state }) {
     return (
         <>
             {state.map((e) => (
-                <h2 key={e.id}>{e.name}</h2>
+                <h1 key={e.id}>{e.name}</h1>
             
             ))}
         </>)
