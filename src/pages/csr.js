@@ -15,6 +15,7 @@ export default function ClientSideRendered() {
   },[]);
 
   console.log("state = "+state);
+  console.log("state11111 = "+state);
 
   return (
     <>
